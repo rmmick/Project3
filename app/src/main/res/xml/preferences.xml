@@ -7,7 +7,8 @@
             android:title="ListPreference title"
             android:summary="ListPreference summary"
             android:entries="@array/JSON_URL_NAME"
-            android:entryValues="@array/JSON_URL" />
+            android:entryValues="@array/JSON_URL"
+            android:defaultValue="http://www.tetonsoftware.com/pets/pets.json" />
 
     </PreferenceCategory>
 
